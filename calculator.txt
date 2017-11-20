@@ -1,0 +1,21 @@
+class calculator {
+def addition(a: Int, b: Int) : Unit ={
+var add = a+b
+println("Addition of values: "+add)
+}
+
+def subtraction(a: Int, b: Int) : Unit ={
+var minus = a-b
+println("Subtraction of values: "+minus)
+}
+
+def multiplication(a: Int, b: Int) : Unit ={
+var multiply = a*b
+println("Multiplication of values: "+multiply)
+}
+
+def division(a: Int, b: Int) : Unit ={
+var div = a/b
+println("Division of values: "+div)
+}
+}
